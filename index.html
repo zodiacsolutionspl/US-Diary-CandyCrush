@@ -25,15 +25,15 @@
 				w = window.innerWidth;
 				h = window.innerHeight;
 
-				var r = 600 / 960;
+				var r = 1080 / 1920;
 
 				if (w * r > window.innerHeight) {
 					w = Math.min(w, Math.ceil(h / r));
 				}
 				h = Math.floor(w * r);
 			} else {
-				w = 960;
-				h = 600;
+				w = 1920;
+				h = 1080;
 			}
 
 			container.style.width = canvas.style.width = w + "px";
@@ -46,8 +46,8 @@
 	<style>
 		html,
 		body {
-			background: #000;
-			background: #000;
+			background: #b983ba;
+			background: #b983ba;
 			width: 100%;
 			height: 100%;
 			overflow: visible;
